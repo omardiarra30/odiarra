@@ -92,9 +92,20 @@ p {
 /* ---------------------------------- */
 
 #imatge-360 {
+  border: 2px black;
+  border-radius: 50px 20px;
   margin: 0 auto;
   text-align: center;
   padding: 20px;
+}
+
+.video-container {
+  border: 2px black;
+  border-radius: 50px 20px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  
 }
 
 /* ---------------------------------- */
@@ -102,13 +113,10 @@ p {
 .mapa{
   margin-left: 2.5%;
 }
+
 /* ---------------------------------- */
 
-.video-container {
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px;
-}
+
 
 
 /* ---------------------------------- */
@@ -117,21 +125,20 @@ p {
 /* ---------------------------------- */
 
 
-#menuabaix {
+#xarxessocials {
   padding: 2.5%;
   
 }
 
-#menuabaix p{
-  color: white;
+#xarxessocials p{
+  color: black;
   text-align: center;
-  margin-left: 30%;
 }
 
 footer{
   color: white;
   text-align: center;
-  background-color: brown;
+  background-color: lightcoral;
   }
   
   footer p{
@@ -148,7 +155,7 @@ footer{
 #copyright{
   text-align: center;
   color: black;
-  background-color: lightcoral;
+  background-color: white;
   padding: 0.2%;
   margin-bottom: 1%;
 }
