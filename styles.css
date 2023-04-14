@@ -1,0 +1,471 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+.navbar {
+  font-family: 'Oswald', sans-serif;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+.logo img{
+  float: left;
+  left: 10%;
+  top: 1%;
+}
+.subtitol{
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  font-size: 65px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button{
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  top:60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.buto{
+  border: 1px solid yellow;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+.buto:hover{
+  background-color: purple;
+  color; #000:
+}
+
+body {
+  margin: 0;
+  background-image: url('https://wallpapers.com/images/hd/blue-fade-n7e67tca7zyl3foe.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.titol h1{
+  top: 5%;
+  font-family: 'Oswald', sans-serif;
+  color: blue;
+  text-align: center;
+  font-size: 60px;
+}
+.titol2 h1{
+  top: 5%;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+.console img{
+  height:300px;
+  width:200px;
+ }
+
+
+ .segment{
+     margin-top: 75px;
+     margin-left: 75px;
+ }
+
+
+ h2{
+   font-family: 'Oswald', sans-serif;
+   color: yellow;
+     font-size: 35px;
+     margin-bottom: 15px;
+ }
+
+p{
+   font-family: 'Oswald', sans-serif;
+   font-size: 20px;
+  margin-bottom: 15px;
+  color: white;
+  max-width: 1300px;
+ }
+
+
+ .line{
+     background-color: black;
+     height: 4px;
+     width: auto;
+     margin-right: 75px;
+     margin-bottom: 40px;
+ }
+
+
+ .console{
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px;
+    margin-bottom: 20px;
+ }
+
+
+.content{
+  top: 10%;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  align-items: center;
+}
+.content .textbox{
+  position: relative;
+  top: 50%;
+  max-width: 600px;
+  left: 5%;
+}
+.content .textbox h2{
+  color: yellow;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+.content .textbox p{
+  color: white;
+  line-height: 1.7em;
+}
+.content .imgbox{
+  position: absolute;
+  left: 70%;
+  top: 15%;
+  transform: translate(-50%);
+  display: flex;
+}
+.content .imgbox img{
+  max-width: 400px;
+}
+.sci{
+  position: absolute;
+  top: 160%;
+  left: 90%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+}
+.sci li{
+  list-style: none;
+}
+.sci li a{
+  display: inline-block;
+  margin: 5px 0;
+  transform: scale(0.6);
+  filter: invert(1);
+}
+.circle{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: darkblue;
+  clip-path: circle(600px at right 1000px)
+
+}
+.content2{
+  top: 40%;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  align-items: center;
+}
+.content2 .textbox2{
+  position: relative;
+  top: 90%;
+  max-width: 600px;
+  left: 5%;
+}
+.content2 .textbox2 h2{
+  color: yellow;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+.content2 .textbox2 h2 span{
+  color: yellow;
+  font-size: 1.2em;
+}
+.content2 .textbox2 p{
+  color: white;
+  line-height: 1.7em;
+}
+
+.content3{
+  top: 120%;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align:justify;
+  align-items: center;
+}
+.content3 .textbox3{
+  position: relative;
+  top: 80%;
+  max-width: 600px;
+  left: 5%;
+}
+.content3 .textbox3 h2{
+  color: yellow;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+.content3 .textbox3 h2 span{
+  color: yellow;
+  font-size: 1.2em;
+}
+.content3 .textbox3 p{
+  color: white;
+  line-height: 1.7em;
+}
+.ps4ps5 img{
+  position: absolute;
+  left: 57%;
+  width: 400px;
+  top: 20%;
+}
+
+html, body {
+  height: 90%;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+#xarxessocials {
+  padding: 2.5%;
+  
+}
+
+#xarxessocials p{
+  color: black;
+  text-align: center;
+}
+
+footer{
+  color: white;
+  text-align: center;
+  background-color: grey;
+  }
+  
+  footer p{
+  margin: 0px;
+  }
+  
+.icons img{
+  height: 64px;
+  width: 64px;
+    margin-top: 1%;
+  margin-bottom: 1%;
+  }
+
+#copyright{
+  text-align: center;
+  color: black;
+  background-color: grey;
+  padding: 0.2%;
+  margin-bottom: 1%;
+}
+
+
+@media only screen and (max-width: 1200px){
+
+.content{
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .textbox{
+  position: relative;
+  top: 30%;
+  max-width: 420px;
+  left: 5%;
+}
+.content .textbox h2{
+  color: red;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+.content .textbox h2 span{
+  color: red;
+  font-size: 1.2em;
+}
+.content .textbox p{
+  color: white;
+  line-height: 1.7em;
+}
+.content .imgbox{
+  position: absolute;
+  left: 45%;
+  top: 105%;
+  transform: translate(-50%);
+  display: flex;
+}
+.content .imgbox img{
+  max-width: 400px;
+}
+.sci{
+  position: absolute;
+  top: 260%;
+  left: 90%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+}
+.sci li{
+  list-style: none;
+}
+.sci li a{
+  display: inline-block;
+  margin: 5px 0;
+  transform: scale(0.6);
+  filter: invert(1);
+}
+.circle{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: darkblue;
+  clip-path: circle(0px at right 0px)
+
+}
+.content2{
+  top: 100%;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content2 .textbox2{
+  position: relative;
+  top: 90%;
+  max-width: 420px;
+  left: 5%;
+}
+.content2 .textbox2 h2{
+  color: red;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+.content2 .textbox2 h2 span{
+  color: red;
+  font-size: 1.2em;
+}
+.content2 .textbox2 p{
+  color: white;
+  line-height: 1.7em;
+}
+.content3{
+  top: 210%;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content3 .textbox3{
+  position: relative;
+  top: 80%;
+  max-width: 420px;
+  left: 5%;
+}
+.content3 .textbox3 h2{
+  color: red;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+.content3 .textbox3 h2 span{
+  color: red;
+  font-size: 1.2em;
+}
+.content3 .textbox3 p{
+  color: white;
+  line-height: 1.7em;
+}
+.ps4ps5 img {
+  position: absolute;
+  left: 7%;
+  width: 400px;
+  top: 115%;
+}
+
+#xarxessocials {
+  padding: 2.5%;
+  
+}
+
+#xarxessocials p{
+  color: black;
+  text-align: center;
+}
+
+footer{
+  color: white;
+  text-align: center;
+  background-color: grey;
+  }
+  
+  footer p{
+  margin: 0px;
+  }
+  
+.icons img{
+  height: 64px;
+  width: 64px;
+    margin-top: 1%;
+  margin-bottom: 1%;
+  }
+
+#copyright{
+  text-align: center;
+  color: black;
+  background-color: grey;
+  padding: 0.2%;
+  margin-bottom: 1%;
+}
+
+}
