@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <header>
+    <h1>Javascript Quiz</h1>
+  </header>
+  
+  <main>
+    <div id="instructions">
+      <h2>Instruccions</h2>
+      <p>Benvingut/da al Javascript Quiz. Aquesta prova consisteix en 10 preguntes sobre JavaScript amb un límit de temps per respondre cada pregunta.</p>
+      <p>Feu clic al botó "Iniciar" per començar el test.</p>
+      <button id="startButton">Iniciar</button>
+    </div>
+    
+    <div id="quizContainer" style="display: none;">
+      <div id="timerContainer">
+        <span id="timer">60</span> segons restants
+      </div>
+      <div id="score-container">
+      <h3>Puntuación: <span id="score">0</span></h3>
+    </div>
+  </div>
+      <div id="questionContainer">
+        <img src="" id="questionImage">
+        <h3 id="question"></h3>
+        <ul id="answers">
+          <li><button class="answerButton"></button></li>
+          <li><button class="answerButton"></button></li>
+          <li><button class="answerButton"></button></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  
+  <script src="quiz.js"></script>
+</body>
+</html>

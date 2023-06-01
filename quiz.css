@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: pink;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  #instructions {
+    text-align: center;
+  }
+  
+  #startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  #quizContainer {
+    text-align: center;
+  }
+  
+  #timerContainer {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  #questionImage {
+    max-width: 300px;
+    margin: 20px auto;
+    
+  }
+  
+  #question {
+    margin-bottom: 10px;
+  }
+  
+  #answers {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .answerButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
